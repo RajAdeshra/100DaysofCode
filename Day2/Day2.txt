@@ -1,0 +1,45 @@
+In the day 2 of my 100 days of code challenge, I have decided to move ahead with the pace of learning java language but solving a problem on loops.
+Loops are fundamental when it comes to Java programming and that is why I have taken a program on loops.
+TASK: In this problem, we take a user inputted integer and print its first 10 multiples. (1<=i<=10) where i is the multiples of N(input)
+INPUT : N (user inputted integer)
+OUTPUT : First 10 multiples of N
+Constraints : N has to be in range of number 2 to 20
+SAMPLE INPUT : 4
+SAMPLE OUTPUT :
+4 x 1 = 4
+4 x 2 = 8
+4 x 3 = 12
+4 x 4 = 16
+4 x 5 = 20
+4 x 6 = 24
+4 x 7 = 28
+4 x 8 = 32
+4 x 9 = 36
+4 x 10 = 40
+TEST CASES :
+CASE 1:
+INPUT: 18
+OUTPUT: 
+18 x 1 = 18
+18 x 2 = 36
+18 x 3 = 54
+18 x 4 = 72
+18 x 5 = 90
+18 x 6 = 108
+18 x 7 = 126
+18 x 8 = 144
+18 x 9 = 162
+18 x 10 = 180
+CASE 2 :
+INPUT : 21
+OUTPUT: ~ no response on stdout ~
+Reason for no Output is the constraint imposed in the code which does not allow integer value above 20
+CASE 3:
+INPUT: Hello
+OUTPUT: Exception in thread "main" java.util.InputMismatchException
+Reason for exception is that only integer value is accepted.
+LOGIC:
+The logic to print first 10 multiples of N is to initiate a loop using i variable that goes to 10 and increments every step while multiplying it with N that 
+gives the multiple of the integer N.
+
+
