@@ -1,3 +1,26 @@
-DAY 1 DOCUMENTATION
-This java program is based on if-else conditional loop which is the basic building blocks of java programming. 
-In this Java challenge I had to check whether the user inputted integer is odd or even and print weird or not weird on the basis of it. 
+DAY 1 README
+
+ TASK:
+ This java program is based on if-else conditional loop which is the basic building blocks of java programming. 
+In this Java challenge I had to check whether the user inputted integer is odd or even and print weird or not weird on the basis of the integer.
+SAMPLE INPUT: 
+45
+SAMPLE OUTPUT:
+weird
+TEST CASES:
+CASE 1:
+INPUT: 
+56
+OUTPUT:
+Not weird
+CASE 2:
+INPUT:
+raj
+OUTPUT:
+Exception in thread "main" java.util.InputMismatchException
+~ no response on stdout ~
+LOGIC:
+The problem is quite simple. We use for loop to check where the number is 2 to 5
+if yes, then we print not weird 
+then we check if number is between 5 to 20, then we print weird
+and if the number is greater than 20, then we print weird.
