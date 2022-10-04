@@ -1,0 +1,26 @@
+I am in my day 4 of 100 days of code challenge and I did a string reversal problem today.
+TASK: A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward.
+Given a string A, print Yes if it is palindrome and No if it is not.
+SAMPLE INPUT:
+madam
+SAMPLE OUTPUT:
+Yes
+TEST CASES:
+CASE 1:
+INPUT:
+raj
+OUTPUT:
+No
+CASE 2:
+INPUT:
+45
+OUTPUT:
+No
+CASE 3:
+INPUT:
+level
+OUTPUT:
+Yes
+LOGIC:
+we take a word and reverse it using for loop by taking the last letter of the word decrement it and reverse it. we then compare that string to the original string 
+and we print "Yes" if it is same and no if it is not. 
