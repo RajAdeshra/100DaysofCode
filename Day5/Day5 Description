@@ -1,9 +1,12 @@
  I am in my day 5 of my 100 days of code challenge and I took the program of Java Substring.
+ 
  TASK: 
  Given a string,s , and two indices, start and end, print a substring consisting of all characters in the inclusive range from start to end.
+ 
  INPUT FORMAT:
  The first line contains a single string denoting .
  The second line contains two space-separated integers denoting s, the respective values of start and end.
+ 
  OUTPUT FORMAT:
  Print the substring in the inclusive range from start to end-1.
  SAMPLE INPUT:
@@ -12,13 +15,16 @@
  SAMPLE OUTPUT:
  dam
  Now we will try some test cases for the following:
+ 
  TEST CASES:
  CASE 1:
+ 
  INPUT:
  rajadeshra
  2 6 
  OUTPUT:
  jade
+ 
  CASE 2:
  INPUT:
  howyoudoing
@@ -26,7 +32,8 @@
  Exception in thread "main" java.util.NoSuchElementException
  This error came due to the fact that we have not inputted the start and end of the substring to be extracted
  from the string.
- LOGIC:
+
+LOGIC:
  1: Given string, we input the start and end range of the string.
  2: After that, we use the substring method to extract the string from start to end range.
  3: print the extracted substring.
