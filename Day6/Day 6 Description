@@ -1,0 +1,38 @@
+  // Day 6 of 100 days of code challenge. Progressing in the operations related to strings.
+  => TOPIC : String
+    QUESTION : Java Anagrams
+    Two strings, a and b, are called anagrams if they contain all the same characters in the same frequencies. For this challenge, the test is not case-sensitive.
+    For example, the anagrams of CAT are CAT, ACT
+
+ => TEST CASES:
+
+    CASE 1:
+    Input: 
+    anagram
+    margana
+    Output:
+    Anagram
+    Explanation : The two strings contain all the same letters in the same frequencies, so we print "Anagram".
+
+    CASE 2: what if the two strings have different frequencies of letters.
+    Input:
+    anagramm
+    marganaa
+    Output:
+    Not Anagrams
+    Explanation : The two strings does not contain all the same letters in the same frequencies, we we print "Not Anagram"
+
+  => Constraints:
+     1<=length(a),length(b)<=50
+     Strings a and b consist of English alphabetic characters.
+     The comparison should NOT be case sensitive.
+ 
+  =>LOGIC:
+     We take the two strings and check the frequencies of the letters in the two strings and compare it. 
+     The idea is based in an assumption that the set of possible characters in both strings is small. 
+     that the characters are stored using 8 bit and there can be 256 possible characters. 
+     So count the frequency of the characters and if the frequency of characters in both strings are the same, they are anagram of each other.
+     
+  
+ 
+
