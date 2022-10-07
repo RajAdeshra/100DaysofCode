@@ -1,0 +1,62 @@
+// Day 7 of 100 days of code challenge 
+ I have completed few string based problems in these past few days and now I have taken up Arrays 
+ to progress in the 100 days of code challenge. I will start this arrays concept from a
+ very problem and in the coming days, I will pick up harder problems to solve.
+ 
+ =>TOPIC:  1D Arrays
+ Question: To input the size of the array(n) and n number of integers in it. Locked code in it will print 
+ the elements in the array.
+ 
+ => TEST CASES:
+    CASE 1: We will normally input the size and then the elements in it.
+    INPUT:
+    4
+    10
+    20
+    30
+    40
+    OUTPUT:
+    10
+    20
+    30
+    40
+    
+    CASE 2: If we do not input the size of the array
+    INPUT:
+    10 
+    20
+    30
+    40
+    OUTPUT:
+    Exception in thread "main" java.util.NoSuchElementException
+	  at java.util.Scanner.throwFor(Scanner.java:907)
+    Explanation : As we have not inputted the size the compiler throws an exception for the following.
+    
+  =>LOGIC 
+    Input the size of the array and implement for loop that runs from zero to n number of times.
+    When we save each integer to its corresponding index in a, we get a=[10,20,30,40]. 
+    The locked code prints each array element on a new line from left to right.
+    ------------------------------------------------------------------------------------------------------------------------------
+    CODE:
+    import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+	   
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+        int[] a = new int[n];
+        for(int i = 0 ; i < n; i++){
+          int val = scan.nextInt();
+            a[i] = val;
+        }
+
+        scan.close();
+
+        // Prints each sequential element in array a
+        for (int i = 0; i < a.length; i++) {
+            System.out.println(a[i]);
+        }
+    }
+}
