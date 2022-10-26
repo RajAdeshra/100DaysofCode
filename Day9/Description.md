@@ -16,11 +16,11 @@ Given an array of  integers, find and print its number of negative subarrays on 
 1 ≤ n ≤ 100
 -10^4 <= a <=10^4
 
-Sample Input
+### Sample Input
 5
 1 -2 4 -5 1
 
-Sample Output:
+### Sample Output:
 9
 
 ### LOGIC:
