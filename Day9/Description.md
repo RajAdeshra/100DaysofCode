@@ -1,5 +1,5 @@
 // Day 9 Of 100 Days of Code Challenge. 
-I took a break from this challenge due to mid-term exams but now resuming it.
+I took a break from this challenge due to mid-term exams but now resuming the challenge.
 ### TOPIC: 
     Array
 
