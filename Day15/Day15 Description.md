@@ -11,7 +11,7 @@
      The next line contains : the height of the parallelogram.
      Output Format
      If both values are greater than zero, then the main method must output the area of the parallelogram. 
-     Otherwise, print "java.lang.Exception: Breadth and height must be positive" without quotes.
+     Otherwise, print "java.lang.Exception: Breadth and height must be positive" without quotes
 ###  CONSTRAINTS:
      * -100<=B<=100
      * -100<=H<=100
@@ -27,7 +27,7 @@
      -1
       2
      OUTPUT:
-     java.lang.Exception: Breadth and height must be positive
+     java.lang.Exception: Breadth and height must be positive.
      CASE 3:
      INPUT:
      100
