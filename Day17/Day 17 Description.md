@@ -1,4 +1,4 @@
-  Day 17 of my 100 Daysof Code
+  Day 17 of my 100 Days of Code
  
 ### TOPIC:
     Java BigDecimal
