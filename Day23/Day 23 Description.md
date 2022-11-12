@@ -15,6 +15,10 @@
     The main method in the Solution class above should print the following:
     My superclass is: Arithmetic
     42 13 20
+### EXPLANATION:
+    A class named Adder inherits from the superclass named Arithmetic.
+    Arithmetic here is a parent class where two integers are intitiated and the method returns an integer that contains
+    their sum.
 _______________________________________________________________________________________________________________________________________________________________
 ### CODE:
     import java.io.*;
