@@ -60,5 +60,4 @@ DAY 32 OF MY 100 DAYS OF CODE
     0 0
     0 0
     0 0
-### EXPLANATION:
     
