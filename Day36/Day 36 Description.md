@@ -1,3 +1,4 @@
+    DAY 36 OF MY 100 DAYS IF CODE
 ### TOPIC: Java Monotonic Array
 ### QUESTION:
     An array is monotonic if it is either monotone increasing or monotone decreasing. 
