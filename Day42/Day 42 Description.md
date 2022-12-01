@@ -1,3 +1,4 @@
+    DAY 42 OF MY 100 DAYS OF CODE
 ### TOPIC:
     Java Concatination of Array
 
