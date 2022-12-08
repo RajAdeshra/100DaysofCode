@@ -1,4 +1,6 @@
-Topic of the Day: Java Longest Consecutive Array 
+Day 46 of my 100 days of Code
+### Topic of the Day: 
+Java Longest Consecutive Array 
 Example 1:
 Input: nums = [100,4,200,1,3,2]
 Output: 4
@@ -7,12 +9,12 @@ Example 2:
 Input: nums = [0,3,7,2,5,8,4,6,0,1]
 Output: 9
  
-Testcase:
+### Testcase:
 Your input: [100,4,200,1,3,2]
 Output: 4
 Expected: 4
 
-Constraints:
+### Constraints:
 •	0 <= nums.length <= 105
 •	-109 <= nums [i] <= 109
 Explanation:
