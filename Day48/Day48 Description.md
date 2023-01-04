@@ -1,5 +1,8 @@
-Topic of the Day: Java Intersection of two Linked lists
-Question: The heads of two singly linked-lists headA and headB, return the node at which the two lists intersect. 
+  Day 48 of my 100 Days of Code
+### Topic: 
+Java Intersection of two Linked lists
+### Question: 
+The heads of two singly linked-lists headA and headB, return the node at which the two lists intersect. 
 If the two linked lists have no intersection at all, return null. For example, the following two linked lists begin to intersect at node c. 
 The test cases are generated such that there are no cycles anywhere in the entire linked structure. 
 Note that the linked lists must retain their original structure after the function returns.
@@ -38,7 +41,7 @@ Since the two lists do not intersect, intersectVal must be 0, while skipA and sk
 Explanation: The two lists do not intersect, so return null.
  
 
-Constraints:
+### Constraints:
 The number of nodes of listA is in the m.
 The number of nodes of listB is in the n.
 1 <= m, n <= 3 * 104
@@ -49,6 +52,6 @@ intersectVal is 0 if listA and listB do not intersect.
 intersectVal == listA[skipA] == listB[skipB] if listA and listB intersect.
 
 
-Explanation: 
+### Explanation: 
 The key idea to note is that, if the two linked lists contain a common point, the length from that intersection point to the tail will be the same. 
 Since the tail length must be the same, the intersection node should be any of the first five nodes in the given image
