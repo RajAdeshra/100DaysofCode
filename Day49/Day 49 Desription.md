@@ -14,7 +14,7 @@ Example 3:
 Input: list1 = [], list2 = [0]
 Output: [0]
  
-### Testcase:
+### Testcases:
 Your input: [2,6,9]
 [5,7,9]
 Output: [2,5,6,7,9,9]
